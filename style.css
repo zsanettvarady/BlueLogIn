@@ -12,8 +12,6 @@ body {
   padding: 6% 0 0;
   margin: auto;
   opacity: 0.8;
-
-
 }
 
 .form {
@@ -60,6 +58,10 @@ p {
   box-sizing: border-box;
   font-size: 14px;
   border-radius: 25px;
+}
+
+.form input:focus {
+  outline: none;
 }
 
 .dot {
