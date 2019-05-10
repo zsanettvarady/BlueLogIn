@@ -1,0 +1,115 @@
+body {
+  background-image: linear-gradient(to right, rgba(221,79,212,0.4)10%, rgba(1,10,155,0.7)55%),url("bg1.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.login-page {
+  max-width: 460px;
+  padding: 6% 0 0;
+  margin: auto;
+  opacity: 0.8;
+
+
+}
+
+.form {
+  position: relative;
+  background: #ffffff;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 85px;
+  text-align: center;
+  z-index: 30;
+  -webkit-animation: mymove 2s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation: mymove 2s;
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 80px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 80px;}
+}
+
+p {
+  font-family: Raleway, sans-serif;
+  font-size: 28px;
+  color: #697982;
+  text-align: left;
+  padding: 20px;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    margin-left: 362px;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  outline: 0;
+  background: linear-gradient(to left, #5053bc 35%, #dd4fd4 120%);
+  width: 100%;
+  border:0;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+button:hover, .form button:active {
+  opacity: 0.7;
+  transition: 0.5s linear;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #8badd3;
+  font-size: 12px;
+}
+
+.form .message a{
+  color: #006be8;
+  text-decoration: none;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+.form .message a:hover {
+  color: #gray;
+  opacity: 1;
+}
+
+.form .register-form {
+  display: none;
+}
